@@ -5,7 +5,6 @@
 /public/storage
 /storage/*.key
 /vendor
-.next
 .env.backup
 .env.production
 .phpactor.json
