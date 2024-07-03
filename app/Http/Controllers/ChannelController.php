@@ -12,7 +12,6 @@ class ChannelController extends Controller
 
      //   event(new TestbroadcastEvent('Hiến gửi lời chào'));
        // \broadcast(new TestbroadcastEvent('hiến'))->toOthers();
-        return redirect('https://nhatnhat.com/');
     }
     public function getchannel(){
         $channels = Broadcast::channel()->getChannels();

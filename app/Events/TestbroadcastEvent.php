@@ -33,9 +33,9 @@ class TestbroadcastEvent implements ShouldBroadcastNow
     public function broadcastOn(): array
     {
         return [
-            new PrivateChannel('private-channelp.1'),
+            //new PrivateChannel('private-channelp.1'),
            // new Channel('private-channelp.1'),
-          //  new Channel('channelp.1'),
+           new Channel('channelp.1'),
         ];
     }
     public function broadcastAs()
